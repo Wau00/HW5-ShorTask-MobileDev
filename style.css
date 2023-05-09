@@ -1,0 +1,57 @@
+.jumbotron {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.card-header {
+    background-color: #f8f9fa;
+}
+
+#title {
+    color: #fff;
+}
+
+#text {
+    color: black;
+}
+
+.card {
+    transition: transform 0.2s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    max-width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.list-group {
+    margin-top: 50px;
+}
+
+.list-group-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.list-group-item a:hover {
+    text-decoration: underline;
+}
+
+#footer {
+    margin-top: 6rem;
+}
